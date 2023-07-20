@@ -6,4 +6,5 @@ Console.Write("Введи число: ");
 
 double number = double.Parse(Console.ReadLine()!);
 double result = number * number;
+
 Console.WriteLine("Квадрат числа вашего числа равен: " + result);

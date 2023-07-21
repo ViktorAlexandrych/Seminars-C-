@@ -2,7 +2,7 @@
 // 3 -> Среда
 // 5 -> Пятница
 System.Console.Write("Введите номер дня недели: ");
-int number = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine()!);
 if (number == 1) Console.WriteLine("Сегодня понедельник");
 if (number == 2) Console.WriteLine("Сегодня вторник");
 if (number == 3) Console.WriteLine("Сегодня среда");
